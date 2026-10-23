@@ -1,0 +1,3 @@
+algorithm,seed,preset,steps,success,coverage,cleaned_cells,target_cells,remaining_cells,returned_home,reward,wall_collisions,obstacle_collisions,unseen_state_actions,evaluation_step_cap,stop_reason
+qlearning,789,portfolio,84,True,1.0,71,71,0,True,229.0,0,0,0,500,completed
+sarsa,789,portfolio,96,True,1.0,71,71,0,True,217.0,0,0,0,500,completed

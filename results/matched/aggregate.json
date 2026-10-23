@@ -1,0 +1,147 @@
+{
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    42,
+    789
+  ],
+  "protocol": {
+    "episodes": 8000,
+    "training_step_cap": 500,
+    "evaluation_step_cap": 500,
+    "alpha": 0.3,
+    "gamma": 0.95,
+    "epsilon_initial": 1.0,
+    "smoothing_window": 100,
+    "band": "one sample standard deviation across seeds",
+    "milestone": "first full 100-episode window with at least 80% training completions",
+    "representative_animation_seed": 42
+  },
+  "algorithms": {
+    "qlearning": {
+      "steps_by_seed": [
+        92,
+        92,
+        96,
+        94,
+        94,
+        90,
+        96,
+        88,
+        94,
+        94
+      ],
+      "completed_runs": 10,
+      "step_mean": 93.0,
+      "step_sd": 2.5385910352879693,
+      "revisit_moves_by_seed": [
+        21,
+        21,
+        25,
+        23,
+        23,
+        19,
+        25,
+        17,
+        23,
+        23
+      ],
+      "revisit_mean": 22.0,
+      "training_success_at_6000_by_seed": [
+        0.61,
+        0.61,
+        0.59,
+        0.51,
+        0.7,
+        0.53,
+        0.62,
+        0.55,
+        0.56,
+        0.57
+      ],
+      "training_success_at_6000_mean": 0.5850000000000002,
+      "first_80_percent_window_by_seed": [
+        6397,
+        6496,
+        6401,
+        6559,
+        6354,
+        6866,
+        6355,
+        6282,
+        6698,
+        6610
+      ],
+      "first_80_percent_window_mean": 6501.8,
+      "runs_reaching_threshold": 10
+    },
+    "sarsa": {
+      "steps_by_seed": [
+        106,
+        100,
+        100,
+        86,
+        104,
+        90,
+        104,
+        104,
+        104,
+        96
+      ],
+      "completed_runs": 10,
+      "step_mean": 99.4,
+      "step_sd": 6.736302975503535,
+      "revisit_moves_by_seed": [
+        35,
+        29,
+        29,
+        15,
+        33,
+        19,
+        33,
+        33,
+        33,
+        25
+      ],
+      "revisit_mean": 28.4,
+      "training_success_at_6000_by_seed": [
+        0.0,
+        0.03,
+        0.0,
+        0.01,
+        0.0,
+        0.0,
+        0.02,
+        0.02,
+        0.02,
+        0.0
+      ],
+      "training_success_at_6000_mean": 0.01,
+      "first_80_percent_window_by_seed": [
+        7443,
+        7523,
+        7576,
+        7493,
+        7472,
+        7570,
+        7471,
+        7320,
+        7599,
+        7505
+      ],
+      "first_80_percent_window_mean": 7497.2,
+      "runs_reaching_threshold": 10
+    }
+  },
+  "comparison": {
+    "completion_step_reduction_percent": 6.438631790744473,
+    "revisit_move_reduction_percent": 22.535211267605632,
+    "training_success_gap_at_6000_percentage_points": 57.500000000000014
+  }
+}

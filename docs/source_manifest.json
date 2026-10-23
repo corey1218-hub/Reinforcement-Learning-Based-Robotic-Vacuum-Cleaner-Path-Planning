@@ -1,0 +1,50 @@
+[
+  {
+    "source": "RL_Robotic_Vacuum_Cleaner/qlearn.py",
+    "sha256": "a4bc92b15ba1f7db391e0cb41598ee0548cdcbba67205fe3ee097459930fb58e"
+  },
+  {
+    "source": "RL_Robotic_Vacuum_Cleaner/sarsa_demo.py",
+    "sha256": "52d6f08d88592ba4ac048c75488729045a6f496e96700066cbd1b3a9cc946c3f"
+  },
+  {
+    "source": "RL_Robotic_Vacuum_Cleaner/qlearn_demo.py",
+    "sha256": "5ea70af0a5f71ed70b95a8ea273bd7583ad1cc66050a53d2c73ce832c7bd5f13"
+  },
+  {
+    "source": "RL_Robotic_Vacuum_Cleaner/Vacuum_GridWorld.py",
+    "sha256": "561a9785e6b406f0cdf2503603c181509c6e86cb428ea869740336c078cd0b24"
+  },
+  {
+    "source": "RL_Robotic_Vacuum_Cleaner/sarsa.py",
+    "sha256": "4d1599461462dc6cec7df666b97428ec2ef1684a6e155c9e189fe65c3674521d"
+  },
+  {
+    "source": "original/最終專題/掃地機器人/vacuum_qlearning_training_plot/qlearn.py",
+    "sha256": "4dd36b19789cd8a2163182181c6a5a67d706066b1bc402461d9c8e4c10b92593"
+  },
+  {
+    "source": "original/最終專題/掃地機器人/vacuum_qlearning_training_plot/qlearn_demo.py",
+    "sha256": "f2bd3f117af4818f1777298e58651023b651505fa67754b857e07dff3ab6af4c"
+  },
+  {
+    "source": "original/最終專題/掃地機器人/vacuum_qlearning_training_plot/Vacuum_GridWorld.py",
+    "sha256": "010bbdf72d6a02a1b6e4b2436467943d393de2018727393810a89e614823a3bc"
+  },
+  {
+    "source": "original/最終專題/掃地機器人/vacuum_sara_training_plot/esarsa.py",
+    "sha256": "f2e943c16bcf12c1606ccc29ba129da897b644e23aeda8f9d994293bc46a7ee6"
+  },
+  {
+    "source": "original/最終專題/掃地機器人/vacuum_sara_training_plot/sarsa_esarsa_demo.py",
+    "sha256": "e69dd54b22658ac09e8eb788107447971d0efc8647ef3d4ef8665b441f2a6b49"
+  },
+  {
+    "source": "original/最終專題/掃地機器人/vacuum_sara_training_plot/Vacuum_GridWorld.py",
+    "sha256": "010bbdf72d6a02a1b6e4b2436467943d393de2018727393810a89e614823a3bc"
+  },
+  {
+    "source": "original/最終專題/掃地機器人/vacuum_sara_training_plot/sarsa.py",
+    "sha256": "2007df7123d26c9b09dcdc75de0f3db431e51e77b65f7c4e9d87867311fee713"
+  }
+]

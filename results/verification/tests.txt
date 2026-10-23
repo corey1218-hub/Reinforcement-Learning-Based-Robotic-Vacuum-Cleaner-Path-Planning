@@ -1,0 +1,19 @@
+test_bedroom_geometry (test_core.EnvironmentTests.test_bedroom_geometry) ... ok
+test_disconnected_map_and_invalid_action_rejected (test_core.EnvironmentTests.test_disconnected_map_and_invalid_action_rejected) ... ok
+test_first_visit_and_revisit_rewards (test_core.EnvironmentTests.test_first_visit_and_revisit_rewards) ... ok
+test_home_is_required_and_terminal_is_absorbing (test_core.EnvironmentTests.test_home_is_required_and_terminal_is_absorbing) ... ok
+test_reset_restores_all_targets (test_core.EnvironmentTests.test_reset_restores_all_targets) ... ok
+test_same_position_different_cleaning_history_is_different_state (test_core.EnvironmentTests.test_same_position_different_cleaning_history_is_different_state) ... ok
+test_wall_and_obstacle_collisions_preserve_state (test_core.EnvironmentTests.test_wall_and_obstacle_collisions_preserve_state) ... ok
+test_evaluation_does_not_insert_unknown_states (test_core.LearningTests.test_evaluation_does_not_insert_unknown_states) ... ok
+test_heuristic_route_covers_room_and_reward_balances (test_core.LearningTests.test_heuristic_route_covers_room_and_reward_balances) ... ok
+test_invalid_training_settings_rejected (test_core.LearningTests.test_invalid_training_settings_rejected) ... ok
+test_seed_reproduces_both_algorithms (test_core.LearningTests.test_seed_reproduces_both_algorithms) ... ok
+test_step_cap_is_not_success (test_core.LearningTests.test_step_cap_is_not_success) ... ok
+test_terminal_target_ignores_nonzero_next_value (test_core.LearningTests.test_terminal_target_ignores_nonzero_next_value) ... ok
+test_uploaded_reference_trajectories (test_reference.ReferenceTests.test_uploaded_reference_trajectories) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.051s
+
+OK

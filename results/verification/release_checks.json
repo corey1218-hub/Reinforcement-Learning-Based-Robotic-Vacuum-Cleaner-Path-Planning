@@ -1,0 +1,37 @@
+{
+  "pdf_pages": 5,
+  "text_language": "English",
+  "title_preserved": true,
+  "pdf_visual_review": "All five pages inspected",
+  "github_link": "https://github.com/corey1218-hub/rl-robotic-vacuum-cleaner",
+  "automated_tests": 14,
+  "test_status": "passed",
+  "source_action_reproduction": {
+    "qlearning": 84,
+    "sarsa": 96
+  },
+  "matched_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    42,
+    789
+  ],
+  "portfolio_revision": {
+    "changes": [
+      "Original room illustration beside simulation map",
+      "Identical font size and scaling for both action-value updates"
+    ],
+    "formula_source_font_points": 17,
+    "formula_canvas_pixels": [
+      1704,
+      180
+    ],
+    "visual_review": "Pages 1 and 2 inspected; pages 3-5 pixel-identical to previously verified PDF"
+  }
+}
